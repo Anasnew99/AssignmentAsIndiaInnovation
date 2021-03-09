@@ -1,6 +1,7 @@
 # Assignment For AsIndiaInnovation
 
 Question 1 : Used C++ Language.
+* Use any c++11 preferably gcc compiler to compile both solutions.
 
 <b>Approach1</b>
 1. In this approach I used an array to keep track of numbers which are not present in n-1 elements.
@@ -8,6 +9,11 @@ Question 1 : Used C++ Language.
 3. Then i have taken each of n-1 elements and marks that entry(index) of array to be true (means element is present).
 4. Then looping the array and printing that value which has false in it (It means it is not present in given n-1 elements).
 5. Solving through this method i also applied constraint by making sure that no one hits same element twice or goes out of bound.
+![image](https://user-images.githubusercontent.com/56810787/110411364-70343080-80b0-11eb-8e74-01ddbe7c1739.png)
+![image](https://user-images.githubusercontent.com/56810787/110411450-98239400-80b0-11eb-96ce-4b437bef0d30.png)
+![image](https://user-images.githubusercontent.com/56810787/110411546-c4d7ab80-80b0-11eb-9925-d834b415c08c.png)
+
+
 
 <b>Approach2</b>
 1. In this approach I have taken sum of 1 to n number using n(n+1)/2.
@@ -15,6 +21,7 @@ Question 1 : Used C++ Language.
 3. After substracting all the elements from the above sum. The remaining value of sum will be the element which is not present in n-1 elements.
 4. This method is more efficient.
 5. In this method i have not check constraint i.e duplicates , range bounds . I assumed correct inputs according to constraints are given by user.
+![image](https://user-images.githubusercontent.com/56810787/110411777-20099e00-80b1-11eb-9a34-7fece86f5951.png)
 
 Question 2 : Used React.js (Project live running at <a href='https://review-movie-system.herokuapp.com/'>https://review-movie-system.herokuapp.com</a>)
 
